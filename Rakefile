@@ -7,3 +7,6 @@ require 'rspec/core/rake_task'
 RSpec::Core::RakeTask.new(:spec)
 
 SimplecovTest::Application.load_tasks
+
+task :default => :spec
+
